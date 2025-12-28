@@ -1,0 +1,93 @@
+h2 {
+    color: white;
+    text-align: left;
+}
+
+body {
+
+    a {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 2px;
+        padding: 1px;
+    }
+
+    button {
+        background-color: navy;
+        color: white;
+        width: 200px;
+    }
+
+    .header {
+        background-color: blue;
+        padding: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .sub {
+        text-align: center;
+        padding: 2rem;
+        background-color: whitesmoke;
+        line-height: 1px;
+    }
+
+    /*This is to make it responsive on laptops*/
+    @media (min-width: 1024px) {
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            justify-items: center;
+        }
+    }
+
+    .box {
+        border: 1px solid gainsboro;
+        padding: 10px;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: pink;
+    }
+
+    .raver {
+        border: 1px solid gainsboro;
+        padding: 10px;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: pink;
+    }
+
+    .skincare {
+        border: 1px solid gainsboro;
+        padding: 10px;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: pink;
+    }
+
+    .gifts {
+        border: 1px solid gainsboro;
+        padding: 10px;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: pink;
+    }
+
+    h3 {
+        margin: 5px;
+    }
+
+    p {
+        margin: 5px;
+    }
+
+    Footer {
+        text-align: center;
+        background-color: navy;
+        color: white;
+        padding: 10px
+    }
+}
